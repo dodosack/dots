@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Screenshot Cleaner weekly
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=7d
+Persistent=true
+
+[Install]
+WantedBy=timers.target

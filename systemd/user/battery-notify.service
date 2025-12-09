@@ -1,0 +1,7 @@
+[Unit]
+Description=Battery Notification Script
+
+[Service]
+Type=oneshot
+ExecStart=/home/dudel/.config/hypr/local/own_battery_notification.sh
+

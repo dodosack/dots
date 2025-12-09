@@ -1,0 +1,6 @@
+[Unit]
+Description=Clean Screenshot Folder every 7 days
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/find /home/dudel/Screenshots -type f -mtime +7 -delete
