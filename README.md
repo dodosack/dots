@@ -2,7 +2,7 @@
 # 🍚 My Dotfiles
 
 Small collection of my personal configs.  
-Based on ****
+Based on **https://github.com/mylinuxforwork**
 
 ## 🖥️ Setup
 - Hyprland (Wayland)
